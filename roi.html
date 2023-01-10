@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="roi.css">
+    <link rel="stylesheet" href="roi5.css">
+    <title>ROI</title>
+</head>
+<body>
+    <div id="root">
+        <div class="app">
+            <div class="header">
+                <h2>ROI Calculator</h2>
+                <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+            <div class="inputbox">
+                <div class="keytags">
+                <span>CAKE</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="25px" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 64C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192s-86-192-192-192H192zM384 352c-53 0-96-43-96-96s43-96 96-96s96 43 96 96s-43 96-96 96z"/></svg>
+                <span>USD</span>
+            </div>
+            <input type="text" placeholder="0.000 USD">
+        </div>
+        <div class="pricebtns">
+            <div class="btns">
+            <div class="price">$1000</div>
+        <div class="price">$100</div>
+    </div>
+        <div class="tag">~CAKE 0.000</div>
+    </div>
+    <div>
+        <h4>Timeframe</h4>
+        <div class="timeframeBtns">
+        <button item="1 Day" class="active">1 Day</button>
+        <button item="7 Days" class="btnbtn">7 Days</button>
+        <button item="30Days" class="btnbtn">30Days</button>
+        <button item="1 Year" class="btnbtn">1 Year</button>
+        <button item="5 Year" class="btnbtn">5 Year</button>
+    </div>
+</div>
+<div class="apisection">
+    <div class="head">
+    <h2>Enable Acelerated APY</h2>
+    <svg xmlns="http://www.w3.org/2000/svg" width="50px" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 64C86 64 0 150 0 256S86 448 192 448H384c106 0 192-86 192-192s-86-192-192-192H192zM384 352c-53 0-96-43-96-96s43-96 96-96s96 43 96 96s-43 96-96 96z"/></svg>
+
+</div>
+<div class="timeframeBtns">
+    <button item="Tier 1" class="active">Tier 1</button>
+    <button item="Tier 2" class="btnbtn">Tier 2</button>
+    <button item="Tier 3" class="btnbtn">Tier 3</button>
+    <button item="Tier 4" class="btnbtn">Tier 4</button>
+    <button item="Tier 5" class="btnbtn">Tier 5</button>
+</div>
+</div>
+<div class="inputbox">
+    <div class="roi">
+    <span>ROI at Current Rates</span>
+</div>
+<input type="text" placeholder="0.00 USD">
+<div class="tags">~0.000 CAKE + 0.000000 DON</div>
+</div>
+<div class="details">
+    <h5>Hide Details</h5>
+    <div class="headdetail">
+    <h3>APY</h3>
+    <h3 style="color: orange;">9.0 %</h3>
+</div>
+<ui>
+    <li>Calculated based on current rates</li>
+    <li>All figures are estimates provided for your convenience only, and by no &nbsp;&nbsp;&nbsp;&nbsp; means represent guaranteed returns.</li>
+</ui>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    !function(e){function r(r){for(var n,a,c=r[0],i=r[1],l=r[2],f=0,s=[];f<c.length;f++)a=c[f],Object.prototype.hasOwnProperty.call(o,a)&&o[a]&&s.push(o[a][0]),o[a]=0;for(n in i)Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(p&&p(r);s.length;)s.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,c=1;c<t.length;c++){var i=t[c];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=a(a.s=t[0]))}return e}var n={},o={1:0},u=[];function a(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,a),t.l=!0,t.exports}a.m=e,a.c=n,a.d=function(e,r,t){a.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},a.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},a.t=function(e,r){if(1&r&&(e=a(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(a.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)a.d(t,n,function(r){return e[r]}.bind(null,n));return t},a.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return a.d(r,"a",r),r},a.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},a.p="/";var c=this["webpackJsonpreact-practice"]=this["webpackJsonpreact-practice"]||[],i=c.push.bind(c);c.push=r,c=c.slice();for(var l=0;l<c.length;l++)r(c[l]);var p=i;t()}([])
+    </script>
+</body>
+</html>
